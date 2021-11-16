@@ -30,11 +30,12 @@ h1 {
     color: rgb(255, 0, 0);
     padding:16px;
     font-weight:lighter;
+    -moz-box-shadow: 4px 4px 8px rgb(0, 0, 0);  
+    -webkit-box-shadow: 4px 4px 8px rgb(0, 0, 0);  
+    box-shadow:4px 4px 8px rgb(0, 0, 0);  
     text-align:center;
     display:block;
     margin-top: 4%;
-    margin-left: 550px;
-    margin-right: 550px;
 }
 
 td {
