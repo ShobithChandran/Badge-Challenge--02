@@ -1,0 +1,102 @@
+[
+    {
+        "Sl": "1",    
+        "Name": "Rice",
+        "Quantity": "5",
+        "Unit": "Kg",
+        "UPrice": "90",
+        "TPrice": "450",
+        "Category": "Long Grain",
+        "Notes": ""
+    },
+    {
+        "Sl": "2",
+        "Name": "Atta",
+        "Quantity": "3",
+        "Unit": "Kg",
+        "UPrice": "45",
+        "TPrice": "135",
+        "Category": "Flour",
+        "Notes": ""
+    },
+    {
+        "Sl": "3",
+        "Name": "Sugar",
+        "Quantity": "2",
+        "Unit": "Kg",
+        "UPrice": "40",
+        "TPrice": "120",
+        "Category": "Table Sugar",
+        "Notes": ""
+    },
+    {
+        "Sl": "4",
+        "Name": "Salt",
+        "Quantity": "0.5",
+        "Unit": "Gm",
+        "UPrice": "30",
+        "TPrice": "15",
+        "Category": "Table Salt",
+        "Notes": ""
+    },
+    {
+        "Sl": "5",
+        "Name": "Milk",
+        "Quantity": "2",
+        "Unit": "Lt",
+        "UPrice": "50",
+        "TPrice": "100",
+        "Category": "Milk products",
+        "Notes": ""
+    },    
+    {
+        "Sl": "6",
+        "Name": "Tomatto",
+        "Quantity": "2",
+        "Unit": "Kg",
+        "UPrice": "35",
+        "TPrice": "70",
+        "Category": "Vegetable",
+        "Notes": ""
+    },    
+    {
+        "Sl": "7",
+        "Name": "Potato",
+        "Quantity": "1",
+        "Unit": "Kg",
+        "UPrice": "30",
+        "TPrice": "30",
+        "Category": "Vegetable",
+        "Notes": ""
+    },    
+    {
+        "Sl": "8",
+        "Name": "Onion",
+        "Quantity": "2",
+        "Unit": "Kg",
+        "UPrice": "30",
+        "TPrice": "60",
+        "Category": "Vegetable",
+        "Notes": ""
+    },    
+    {
+        "Sl": "9",
+        "Name": "Apple",
+        "Quantity": "1",
+        "Unit": "Kg",
+        "UPrice": "180",
+        "TPrice": "180",
+        "Category": "Fruit",
+        "Notes": ""
+    },    
+    {
+        "Sl": "10",
+        "Name": "Orange",
+        "Quantity": "1",
+        "Unit": "Kg",
+        "UPrice": "120",
+        "TPrice": "120",
+        "Category": "Fruit",
+        "Notes": ""
+    }
+]

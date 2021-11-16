@@ -1,0 +1,62 @@
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <title>GFG User Details</title>
+  
+    <!-- INCLUDING JQUERY-->
+    <script src=
+"https://code.jquery.com/jquery-3.5.1.js">
+    </script>
+  
+    <!-- CSS FOR STYLING THE PAGE -->
+    <link rel="stylesheet" href="style.css">
+</head>
+  
+<body background="bg1.jpg">
+    <section>
+    
+        <h1>GROCERY LIST</h1>
+  
+        <!-- TABLE CONSTRUCTION-->
+        <table id="myTable">
+            <tr>
+                <th>&nbsp&nbsp&nbsp Sl/No: &nbsp&nbsp&nbsp</th>
+                <th>&nbsp&nbsp&nbsp Item Name &nbsp&nbsp&nbsp</th>
+                <th>&nbsp&nbsp&nbsp Item Quantity &nbsp&nbsp&nbsp </th>
+                <th>&nbsp&nbsp&nbsp Unit &nbsp&nbsp&nbsp</th>
+                <th>&nbsp&nbsp&nbsp Unit Price &nbsp&nbsp&nbsp</th>
+                <th>&nbsp&nbsp&nbsp Total Price &nbsp&nbsp&nbsp</th>
+                <th>&nbsp&nbsp&nbsp Category &nbsp&nbsp&nbsp</th>
+                <th>&nbsp&nbsp&nbsp Notes &nbsp&nbsp&nbsp</th>
+            </tr>
+        </table>
+    </section>
+
+    
+        <script type="text/javascript">
+$.ajax({
+    url: 'data.json',
+    dataType: 'json',
+    success: function(data) {
+        for (var i=0; i<data.length; i++) {
+            var row = $('<tr><td>' + data[i].Sl
+                + '</td><td>' + data[i].Name 
+                    + '</td><td>' + data[i].Quantity 
+                        + '</td><td>' + data[i].Unit 
+                            + '</td><td>' + data[i].UPrice 
+                                + '</td><td>' + data[i].TPrice 
+                                    + '</td><td>' + data[i].Category 
+                                        + '</td><td><label><input type="checkbox" name="test_name" value=""></label>' + data[i].Notes + '</td></tr>');
+            $('#myTable').append(row);
+        }
+    },
+    error: function(jqXHR, textStatus, errorThrown){
+        alert('Error: ' + textStatus + ' - ' + errorThrown);
+    }
+});
+</script>
+
+</body>
+  
+</html>
