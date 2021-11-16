@@ -23,10 +23,6 @@ a:hover{
     transition: .4s ease-in-out;
 }
 
-.listHeading{
-    align-items: center;
-}
-
 h1 {
     font-size: 42px;
     text-shadow: -1px -1px rgb(255, 238, 0), 1px 1px #060, -3px 0 4px #000;
@@ -65,4 +61,15 @@ td {
 
 td {
     font-weight: lighter;
+}
+
+#div1{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+    
 }
