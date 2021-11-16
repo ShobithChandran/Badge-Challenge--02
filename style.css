@@ -23,8 +23,8 @@ a:hover{
     transition: .4s ease-in-out;
 }
 
-#div{
-    margin: 50%;
+.listHeading{
+    align-items: center;
 }
 
 h1 {
